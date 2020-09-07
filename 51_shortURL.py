@@ -21,3 +21,10 @@ url = "https://teams.microsoft.com/_#/calendarv2"
 US = UrlShortner()
 short = US.shorten(url)
 assert US.restore(short) == url
+
+# Functions associated :
+
+# encode() : Converts the string into bytes to be acceptable by hash function.
+# hexdigest() : Returns the encoded data in hexadecimal format.
+
+# Sha = Secure hash algorithms
